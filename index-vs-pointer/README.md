@@ -126,7 +126,7 @@ The full report includes:
 - Appendices with raw timing data
 
 See:
-[docs/Manual-Optimization-Index-vs-Pointer.pdf](https://github.com/EmmanuelC40/Computer-Architecture-Optimization/blob/6a5197b4d46ecae8decada24c9b783dae3538614/index-vs-pointer/docs/Manual-Optimization-Index-vs-Pointer.pdf)
+[docs/Manual-Optimization-Index-vs-Pointer.pdf](https://github.com/EmmanuelC40/Computer-Architecture-Optimization/blob/1d1c1e3b3373ecc9e279f6ea942ddfbeac09dee5/index-vs-pointer/docs/Manual-Optimization-Index-vs-Pointer.pdf)
 
 ## Author
 
