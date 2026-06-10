@@ -109,7 +109,7 @@ python3 benchmark.py
 
 python3 plot_results.py
 
-*Note: Change lines 5 and 6 for the desired data to be plotted. Change lines 15 and 23 for label names. Change line 34 for figure title. This script requieres pandas and matplotlib as dependencies. To install, run: `pip install pandas matplotlib`* 
+*Note: Change lines 5 and 6 for the desired data to be plotted. Change lines 15 and 23 for label names. Change line 34 for figure title. This script requires pandas and matplotlib as dependencies. To install, run: `pip install pandas matplotlib`* 
 
 ### Formatter
 
