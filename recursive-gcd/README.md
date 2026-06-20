@@ -88,33 +88,42 @@ int gcd_recurs(int a, int b) {
 
 ### Compile and Run
 
+```
 g++ recursive_timed.cpp -o output_name
-
 ./output_name
+```
 
 *Note: Change lines 15 and 16 for the values of a and b. One compilation is one test case of a and b.*
 
 ### Generate S files
 
+```
 g++ desired_program.cpp -S -o output_name.s
+```
 
 *Note: To compile and run, same process as a regular cpp program.*
 
 ### Run benchmarks
 
+```
 python3 gcd_benchmark.py
+```
 
 *Note: You have to change line 6 to run the desired executables. It is in the form of a list. Optional, you could change line 8 for the name of output csv file.*
 
 ### Generate plots
 
+```
 python3 plot.py
+```
 
 *Note: Change lines 4 and 5 for the desired data to be plotted. Change lines 17 and 26 for label names. Change line 32 for figure title. This script requires pandas and matplotlib as dependencies. To install, run: `pip install pandas matplotlib`* 
 
 ### Formatter
 
+```
 python3 format.py
+```
 
 *Note: This script is used to format the output csv file of the gcd_benchmark script.*
 
