@@ -54,23 +54,26 @@ Dot products are widely used in scientific computing, signal processing, compute
 
 ### Compile and Run
 
+```
 g++ dot_product_scalar.cpp -O3 -o output_name
-
 g++ dot_product_neon.cpp -O3 -o output_name
-
 g++ benchmark.cpp -O3 -o output_name
-
 ./output_name
+```
 
 ### Generate S files
 
+```
 g++ desired_program.cpp -O3 -S -o output_name.s
+```
 
 *Note: To compile and run, same process as a regular cpp program.*
 
 ### Run Benchmark
 
+```
 ./benchmark
+```
 
 ## Documentation
 
