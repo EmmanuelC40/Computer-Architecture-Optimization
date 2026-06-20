@@ -86,34 +86,40 @@ Benchmarks were performed on a Raspberry Pi 5 (ARM64) and an Intel-based Linux s
 ## Build and Run
 
 ### Compile and Run
-
+```
 g++ clearusingindex.cpp -o output_name
-
 g++ clearusingpointer.cpp -o output_name
-
 ./output_name
-
+```
 ### Generate S files
 
+```
 g++ desired_program.cpp -S -o output_name.s
+```
 
 *Note: To compile and run, same process as a regular cpp program.*
 
 ### Run benchmarks
 
+```
 python3 benchmark.py
+```
 
 *Note: You have to change line 6 to run the desired executable. Optional, you could change line 8 for the name of output csv file.*
 
 ### Generate plots
 
+```
 python3 plot.py
+```
 
 *Note: Change lines 5 and 6 for the desired data to be plotted. Change lines 15 and 23 for label names. Change line 34 for figure title. This script requires pandas and matplotlib as dependencies. To install, run: `pip install pandas matplotlib`* 
 
 ### Formatter
 
+```
 python3 formatter.py
+```
 
 *Note: This script is used to format the output csv file of the benchmark script.*
 
